@@ -80,4 +80,10 @@ In this room, when you run the command with the wildcard it will output the file
 > * owned by group bandit6
 > * 33 bytes in size
 
-### Introducing the
+### Introducing the ```find``` command
+
+    find / -user bandit7 -group bandit6 -size 33c 2>/dev/null
+
+The challenge text for this room give you a few pieces of information about the
+file you are looking for. They are being pretty specific, so your fist thought
+may be to try to figure out how to find that information. 

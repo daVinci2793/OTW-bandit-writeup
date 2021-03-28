@@ -80,4 +80,4 @@ In this room, when you run the command with the wildcard it will output the file
 > * owned by group bandit6
 > * 33 bytes in size
 
-###
+### Introducing the
